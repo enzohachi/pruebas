@@ -23,6 +23,7 @@ data class DrinkList (
     val drinkList: List<Drink>
 )
 
+/*
 @Entity
 data class DrinkEntity (
     @PrimaryKey
@@ -35,5 +36,5 @@ data class DrinkEntity (
     val descripcion: String = ""
 
 )
-
+*/
 

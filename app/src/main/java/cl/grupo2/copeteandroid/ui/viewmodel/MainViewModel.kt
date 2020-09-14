@@ -1,7 +1,6 @@
 package cl.grupo2.copeteandroid.ui.viewmodel
 
 import androidx.lifecycle.*
-import cl.grupo2.copeteandroid.data.model.DrinkEntity
 import cl.grupo2.copeteandroid.domain.Repo
 import cl.grupo2.copeteandroid.vo.Resource
 import kotlinx.coroutines.Dispatchers
