@@ -1,7 +1,6 @@
-package cl.grupo2.copeteandroid.domain
+package cl.grupo2.copeteandroid.tragos.domain
 
-import cl.grupo2.copeteandroid.data.model.Drink
-import cl.grupo2.copeteandroid.data.model.DrinkList
+import cl.grupo2.copeteandroid.tragos.data.model.DrinkList
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.TragosDetalleFragment">
+    tools:context=".tragos.ui.TragosDetalleFragment">
 
     <com.github.chrisbanes.photoview.PhotoView
-        android:id="@+id/ivImagenDetalle"
+        android:id="@+id/ivImagenItem"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         />
@@ -28,7 +28,7 @@
 
 
     <TextView
-        android:id="@+id/tvTituloDetalle"
+        android:id="@+id/tvTituloItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Titulo para el detalle"

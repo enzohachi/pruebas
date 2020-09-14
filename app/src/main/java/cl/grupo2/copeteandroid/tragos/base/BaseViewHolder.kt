@@ -1,4 +1,4 @@
-package cl.grupo2.copeteandroid.base
+package cl.grupo2.copeteandroid.tragos.base
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

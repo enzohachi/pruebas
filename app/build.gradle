@@ -85,6 +85,8 @@ dependencies {
     //EventEmitter (one-off events)
     //implementation 'com.github.Zhuinden:event-emitter:1.1.0'
 
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
 
 
 

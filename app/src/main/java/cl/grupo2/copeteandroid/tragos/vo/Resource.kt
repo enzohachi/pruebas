@@ -1,4 +1,4 @@
-package cl.grupo2.copeteandroid.vo
+package cl.grupo2.copeteandroid.tragos.vo
 
 import java.lang.Exception
 

@@ -1,10 +1,9 @@
-package cl.grupo2.copeteandroid.vo
+package cl.grupo2.copeteandroid.tragos.vo
 
-import cl.grupo2.copeteandroid.domain.WebService
+import cl.grupo2.copeteandroid.tragos.domain.WebService
 import com.google.gson.GsonBuilder
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 object RetrofitClient {
     val webService by lazy{

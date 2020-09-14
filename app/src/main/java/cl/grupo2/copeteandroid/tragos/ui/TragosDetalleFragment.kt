@@ -1,4 +1,4 @@
-package cl.grupo2.copeteandroid.ui
+package cl.grupo2.copeteandroid.tragos.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import cl.grupo2.copeteandroid.R
-import cl.grupo2.copeteandroid.data.model.Drink
+import cl.grupo2.copeteandroid.tragos.data.model.Drink
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.fragment_tragos_detalle.*
 
@@ -30,8 +30,8 @@ class TragosDetalleFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Glide.with(requireContext()).load(drink.imagen).centerCrop().into(ivImagenDetalle)
-        tvTituloDetalle.text = drink.nombre
+        Glide.with(requireContext()).load(drink.imagen).centerCrop().into(ivImagenItem)
+        tvTituloItem.text = drink.nombre
         tvDescripcionDetalle.text = drink.descripcion
     }
 

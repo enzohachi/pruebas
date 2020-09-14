@@ -1,4 +1,4 @@
-package cl.grupo2.copeteandroid.ui
+package cl.grupo2.copeteandroid.tragos.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -13,13 +13,13 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import cl.grupo2.copeteandroid.R
-import cl.grupo2.copeteandroid.data.DataSource
-import cl.grupo2.copeteandroid.data.model.Drink
-import cl.grupo2.copeteandroid.domain.RepoImpl
-import cl.grupo2.copeteandroid.ui.viewmodel.MainAdapter
-import cl.grupo2.copeteandroid.ui.viewmodel.MainViewModel
-import cl.grupo2.copeteandroid.ui.viewmodel.VMFactory
-import cl.grupo2.copeteandroid.vo.Resource
+import cl.grupo2.copeteandroid.tragos.data.DataSource
+import cl.grupo2.copeteandroid.tragos.data.model.Drink
+import cl.grupo2.copeteandroid.tragos.domain.RepoImpl
+import cl.grupo2.copeteandroid.tragos.ui.viewmodel.MainAdapter
+import cl.grupo2.copeteandroid.tragos.ui.viewmodel.MainViewModel
+import cl.grupo2.copeteandroid.tragos.ui.viewmodel.VMFactory
+import cl.grupo2.copeteandroid.tragos.vo.Resource
 import kotlinx.android.synthetic.main.fragment_main.*
 
 

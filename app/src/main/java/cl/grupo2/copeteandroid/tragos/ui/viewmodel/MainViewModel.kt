@@ -1,10 +1,9 @@
-package cl.grupo2.copeteandroid.ui.viewmodel
+package cl.grupo2.copeteandroid.tragos.ui.viewmodel
 
 import androidx.lifecycle.*
-import cl.grupo2.copeteandroid.domain.Repo
-import cl.grupo2.copeteandroid.vo.Resource
+import cl.grupo2.copeteandroid.tragos.domain.Repo
+import cl.grupo2.copeteandroid.tragos.vo.Resource
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class MainViewModel(private val repo: Repo): ViewModel(){
 
