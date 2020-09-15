@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".tragos.ui.MainFragment">
+    tools:context=".copete.ui.MainFragment">
 
     <Button
         android:id="@+id/btnIrAFavoritos"
@@ -34,7 +34,7 @@
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvTragos"
+        android:id="@+id/rvCopete"
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

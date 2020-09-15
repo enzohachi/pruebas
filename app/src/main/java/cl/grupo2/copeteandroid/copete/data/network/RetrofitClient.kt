@@ -1,6 +1,5 @@
-package cl.grupo2.copeteandroid.tragos.vo
+package cl.grupo2.copeteandroid.copete.data.network
 
-import cl.grupo2.copeteandroid.tragos.domain.WebService
 import com.google.gson.GsonBuilder
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
